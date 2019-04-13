@@ -4,6 +4,64 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background: url(mt-demo/59900/59995/mt-content/uploads/2016/10/mt-0617-home-bg-1.jpg);
+header.top-header {
+    background: url('../images/mt-0617-home-bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    background-attachment: fixed;
+    color: white;
 }
+
+header.top-header .navbar a {
+    color: white;
+}
+
+header.top-header .navbar .nav-item a {
+    padding: 0;
+}
+
+header.top-header .navbar .nav-item {
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+
+header.top-header .navbar .active {
+    border: 2px solid #aa71d0;
+    
+}
+
+header.top-header .navbar .down-arrow a {
+    word-spacing: 0.5em;
+}
+
+header.top-header .banner {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+header.top-header .banner h1 .normal {
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+header.top-header .banner h1 {
+    font-size: 3.4em;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+header.top-header .banner h2 {
+    font-size: 3.4em;
+    font-family: 'Playfair Display', serif;
+}
+
+header.top-header .banner a {
+    color: #aa71d0;
+    text-decoration: underline;
+    margin-top: 50px;
+    display: block;
+}
+
