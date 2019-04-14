@@ -202,6 +202,21 @@ header.top-header .banner a {
     font-size: 0.8em;
 }
 
+.main-content .about-us {
+    padding: 100px 0;
+}
+
+.main-content .about-us h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    padding: 15px 0;
+}
+
+.main-content .about-us p {
+    color: #8b8b8b;
+    font-size: 1.1em;
+}
+
 .main-content .employee .icon {
     display: inline-block;
     letter-spacing: 0.7em;
