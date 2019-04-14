@@ -125,3 +125,42 @@ header.top-header .banner a {
     color: #aa71d0;
     border: 2px solid #aa71d0;
 }
+
+.main-content .introduce {
+    background: #f3f5f6;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.main-content .introduce h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+.bold-italic {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-content .introduce p {
+    color: #8b8b8b;
+    display: block;
+    font-weight: 400;
+    font-size: 1.55em;
+    padding: 15px;
+}
+
+.main-content .introduce .item img {
+    padding: 10px 0;
+}
+
+.main-content .introduce .item h3 {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0;
+}
+
+.main-content .introduce .item p {
+    font-size: 0.9em;
+    padding: 10px 0;
+}
