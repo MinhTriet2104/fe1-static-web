@@ -112,7 +112,7 @@ header.top-header .banner a {
     font-size: 1.05em;
 }
 
-.main-content .why-should-use .left-content .btn-more-about {
+.btn-purple {
     background: #aa71d0;
     color: white;
     padding: 15px 50px;
@@ -120,7 +120,7 @@ header.top-header .banner a {
     margin-top: 15px;
 }
 
-.main-content .why-should-use .left-content .btn-more-about:hover {
+.btn-purple:hover {
     background: white;
     color: #aa71d0;
     border: 2px solid #aa71d0;
@@ -163,4 +163,78 @@ header.top-header .banner a {
 .main-content .introduce .item p {
     font-size: 0.9em;
     padding: 10px 0;
+}
+
+.main-content .call-back {
+    padding: 100px 0;
+}
+
+.main-content .call-back h2 {
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    line-height: 2em;
+}
+
+.main-content .top-comment {
+    background: url('../images/mt-0617-home-bg-3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-content .top-comment p {
+    font-size: 1.73em;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-content .top-comment .author {
+    font-size: 0.7em;
+    color: #8b8b8b;
+}
+
+.main-content .top-comment .change-btn a {
+    color: #8b8b8b;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.main-content .employee .icon {
+    display: inline-block;
+    letter-spacing: 0.7em;
+}
+
+.main-content .employee .icon a {
+    text-decoration: none;
+}
+
+.main-content .employee .icon .icon-facebook {
+    color: #3a5a9f;
+}
+
+.main-content .employee .icon .icon-twitter {
+    color: #45b0e3;
+}
+
+.main-content .employee .icon .icon-linkedin {
+    color: #1783cb;
+}
+
+.main-content .employee h3 {
+    padding: 10px 0;
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-content .employee .job {
+    font-size: 0.87em;
+    color: #8b8b8b;
+}
+
+.main-content .employee .introduce p {
+    font-size: 1em;
+    padding: 0;
 }
