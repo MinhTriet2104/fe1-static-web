@@ -124,12 +124,13 @@ header.top-header .banner a {
     background: white;
     color: #aa71d0;
     border: 2px solid #aa71d0;
+    padding: 14px 50px;
 }
 
 .main-content .introduce {
-    background: #f3f5f6;
     padding-top: 100px;
     padding-bottom: 50px;
+    background: #f3f5f6;
 }
 
 .main-content .introduce h2 {
@@ -249,7 +250,16 @@ header.top-header .banner a {
     color: #8b8b8b;
 }
 
-.main-content .employee .introduce p {
+.main-content .employee .introduce-employee {
     font-size: 1em;
     padding: 0;
+}
+
+.main-content .child-pages {
+    background: url('../images/mt-0617-home-bg-4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    background-attachment: fixed;
+    color: white;
 }
