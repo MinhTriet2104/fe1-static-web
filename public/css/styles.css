@@ -118,6 +118,7 @@ header.top-header .banner a {
     padding: 15px 50px;
     font-size: 0.9em;
     margin-top: 15px;
+    font-weight: bold;
 }
 
 .btn-purple:hover {
@@ -152,16 +153,16 @@ header.top-header .banner a {
     padding: 15px;
 }
 
-.main-content .introduce .item img {
+.main-content .item img {
     padding: 10px 0;
 }
 
-.main-content .introduce .item h3 {
+.main-content .item h3 {
     font-family: 'Playfair Display', serif;
     padding: 10px 0;
 }
 
-.main-content .introduce .item p {
+.main-content .item p {
     font-size: 0.9em;
     padding: 10px 0;
 }
@@ -259,7 +260,23 @@ header.top-header .banner a {
     background: url('../images/mt-0617-home-bg-4.jpg');
     background-size: cover;
     background-position: center;
-    padding: 150px 0;
+    padding: 130px 0;
     background-attachment: fixed;
     color: white;
+}
+
+.main-content .child-pages h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .child-pages P {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.main-content .child-pages .item p {
+    font-size: 1em;
+    padding: 15px 0;
+    margin-bottom: 0;
 }
