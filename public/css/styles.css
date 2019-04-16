@@ -367,3 +367,14 @@ header.top-header .banner a {
 .main-content .buy-area {
     padding: 130px 0;
 }
+
+footer {
+    background: #1b1a23;
+    padding: 15px 0;
+    color: #8b8b8b;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #aa71d0;
+}
