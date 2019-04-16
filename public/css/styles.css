@@ -284,3 +284,86 @@ header.top-header .banner a {
 .main-content .partners {
     padding: 130px 0;
 }
+
+.main-content .contact-form {
+    padding: 130px 0;
+    background: url('../images/mt-0617-home-bg-5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-content .contact-form h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .contact-form p {
+    font-size: 1.25em;
+    padding: 15px 0;
+}
+
+.main-content .contact-form .input-form {
+    padding: 120px;
+    background: #272532;
+}
+
+.main-content .contact-form .input-form input {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.main-content .contact-form .input-form input:focus {
+    color: white;
+    outline: none;
+}
+
+.main-content .contact-form .input-form input::placeholder {
+    color: white;
+}
+
+.main-content .contact-form .input-form input::content {
+    color: white;
+}
+
+.main-content .contact-form .input-form .input-name, .input-email, .input-message {
+    padding: 16px 22px;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+
+.main-content .contact-form .input-form textarea {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+.main-content .contact-form .input-form textarea::placeholder {
+    color: white;
+}
+
+.main-content .contact-form .input-form textarea:focus {
+    outline: none;
+    color: white;
+}
+
+.main-content .buy-area h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .buy-area p {
+    font-size: 1.21em;
+    color: #8b8b8b;
+}
+
+.main-content .buy-area {
+    padding: 130px 0;
+}
