@@ -125,7 +125,7 @@ header.top-header .banner a {
     background: white;
     color: #aa71d0;
     border: 2px solid #aa71d0;
-    padding: 14px 50px;
+    padding: 14px 49px;
 }
 
 .main-content .introduce {
@@ -219,24 +219,24 @@ header.top-header .banner a {
     font-size: 1.1em;
 }
 
-.main-content .employee .icon {
+.icon {
     display: inline-block;
     letter-spacing: 0.7em;
 }
 
-.main-content .employee .icon a {
+.icon a {
     text-decoration: none;
 }
 
-.main-content .employee .icon .icon-facebook {
+.icon .icon-facebook {
     color: #3a5a9f;
 }
 
-.main-content .employee .icon .icon-twitter {
+.icon .icon-twitter {
     color: #45b0e3;
 }
 
-.main-content .employee .icon .icon-linkedin {
+.icon .icon-linkedin {
     color: #1783cb;
 }
 
@@ -376,5 +376,90 @@ footer {
 }
 
 footer a {
+    color: #aa71d0;
+}
+
+.contact {
+    padding: 120px 0;
+    background: #272532;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.6em;
+}
+
+.contact p {
+    color: #635f76;
+    padding: 15px 0;
+}
+
+.contact .icon {
+    font-size: 0.9em;
+    list-style: none;
+    float: left;
+}
+
+.contact .icon li {
+    display: inline;
+    text-align: center;
+}
+
+.contact .icon .icon-facebook, .contact .icon .icon-twitter, .contact .icon .icon-linkedin {
+    letter-spacing: 0;
+    padding: 1px 5px;
+}
+
+.contact .icon .icon-facebook:hover, .contact .icon .icon-twitter:hover, .contact .icon .icon-linkedin:hover {
+    background-color: #ffffff;
+    color: #d3d8db;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact .group-a a, .contact .communications a  {
+    color: white;
+    padding: 4px 0;
+    display: inline-block;
+}
+
+.contact .group-a a:hover, .contact .communications a:hover {
+    color: #aa71d0;
+    text-decoration: none;
+}
+
+.contact h3 {
+    font-size: 1em;
+}
+
+.contact .communications p {
+    padding: 0;
+}
+
+.contact .input-email-signup {
+    border: 1px solid white;
+    padding: 10px 15px;
+    background: #1b1a23;
+}
+
+.contact .input-email-signup input {
+    background: transparent;
+    border: none;
+}
+
+.contact .input-email-signup input:focus {
+    outline: none;
+    color: white;
+}
+
+.contact .input-email-signup input::placeholder {
+    color: white;
+}
+
+footer a:hover {
     color: #aa71d0;
 }
