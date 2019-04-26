@@ -17,16 +17,16 @@ header.top-header .navbar a {
     color: white;
 }
 
-.navbar .nav-item a {
+.navbar .nav-item {
     padding: 0;
 }
 
-.navbar .nav-item {
-    padding: 10px 15px;
+.navbar .nav-item .nav-link {
+    padding: 8px 15px;
     margin-left: 5px;
 }
 
-header.top-header .navbar .active {
+header.top-header .navbar .active .nav-link {
     border: 2px solid #aa71d0;
     
 }
@@ -38,6 +38,39 @@ header.top-header .navbar .active {
 header.top-header .banner {
     padding-top: 300px;
     padding-bottom: 200px;
+}
+
+.top-header .dropdown {
+    position: relative;
+}
+
+.top-header ul.dropdown-list {
+    background: #272532;
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 15px 0;
+    top: 110%;
+    left: -5%;
+    font-size: 0.9em;
+    width: 125px;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.top-header ul.dropdown-list a {
+    word-spacing: normal;
+    display: block;
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-header ul.dropdown-list a:hover {
+    color: #aa71d0;
 }
 
 header.top-header .banner h1 .normal {
@@ -54,7 +87,7 @@ header.top-header .banner h1 {
 }
 
 header.top-header .banner h2 {
-    font-size: 3.4em;
+    font-size: 3.3em;
     font-family: 'Playfair Display', serif;
 }
 
@@ -81,6 +114,37 @@ header.top-header .banner a {
 
 .main-content .navbar .active {
     border: 2px solid black;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.main-content  ul.dropdown-list {
+    background: #272532;
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 15px 0;
+    top: 110%;
+    left: -5%;
+    font-size: 0.9em;
+    width: 125px;
+}
+
+.main-content ul.dropdown-list a {
+    word-spacing: normal;
+    display: block;
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    left: 0;
+    color: white;
+}
+
+.main-content  ul.dropdown-list a:hover {
+    color: #aa71d0;
 }
 
 .main-content .why-should-use {
