@@ -245,15 +245,31 @@ header.top-header .banner a {
     background: url('../images/mt-0617-home-bg-3.jpg');
     background-size: cover;
     background-position: center;
-    padding-top: 150px;
-    padding-bottom: 100px;
     background-attachment: fixed;
     color: white;
+    padding: 50px 0;
+}
+
+.main-content .carousel {
+    padding: 100px 0;
+}
+
+.main-content .carousel-inner {
+    height: 100px;
+}
+
+.carousel-indicators li {
+    margin: 0 10px;
 }
 
 .main-content .top-comment p {
-    font-size: 1.73em;
+    font-size: 1.1em;
+    padding: 0 200px;
     font-family: 'Playfair Display', serif;
+}
+
+.main-content .top-comment p.third {
+    padding: 0 100px;
 }
 
 .main-content .top-comment .author {
@@ -261,11 +277,19 @@ header.top-header .banner a {
     color: #8b8b8b;
 }
 
-.main-content .top-comment .change-btn a {
+.carousel-indicators li {
     color: #8b8b8b;
-    padding: 0 10px;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 0px;
     text-decoration: none;
     font-size: 0.8em;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+    background: transparent;
+    border: 2px solid #8b8b8b;
 }
 
 .main-content .about-us {
@@ -505,7 +529,6 @@ footer a {
 }
 
 .contact .input-email-signup {
-    border: 1px solid white;
     padding: 10px 15px;
     background: #1b1a23;
 }
@@ -526,4 +549,163 @@ footer a {
 
 footer a:hover {
     color: #aa71d0;
+}
+
+a.up-to-top {
+    padding: 5px 10px;
+    background: #c198dd;
+    position: fixed;
+    bottom: 35px;
+    right: 15px;
+    color: white;
+    border-radius: 3px;
+    z-index: 1000;
+}
+
+a.up-to-top:hover {
+    background: #aa71d0;
+}
+
+a.phone-fixed {
+    position: fixed;
+    bottom: 35px;
+    left: 25px;
+    color: #c198dd;
+    background: white;
+    border-radius: 50%;
+    font-size: 2.5em;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 13px 6px rgba(0,0,0,0.15);
+    z-index: 1000;
+    transform: rotateY(180deg);
+}
+
+a.phone-fixed:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    header.top-header {
+        padding-bottom: 20px;
+    }
+    header.top-header .banner {
+        padding: 20px 0;
+    }
+    header.top-header .navbar-toggler-icon {
+        color: #aa71d0;
+    }
+    header.top-header .navbar-toggler {
+        background: white;
+        padding: 3px 5px;
+        line-height: 1.4;
+        display: block;
+    }
+    header.top-header .banner h1 {
+        font-size: 1.8em;
+        padding: 0;
+        padding-right: 15px;
+    }
+    header.top-header .banner h2 {
+        font-size: 1.8em;
+        padding-right: 30px;
+    }
+    header.top-header .banner h5 {
+        padding-right: 25px;
+    }
+    header.top-header .banner a {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .main-content .navbar-toggler-icon {
+        background: #f3f5f6;
+        padding: 3px 5px;
+        line-height: 1.4;
+        display: block;
+    }
+    .main-content navbar-toggler-icon {
+        color: black;
+    }
+    .main-content .why-should-use .left-content h2 {
+        font-size: 1.8em;
+    }
+    .btn-purple {
+        padding: 10px 10px;
+        font-size: 0.7em;
+        margin: 15px 0;    
+    }
+    .main-content .call-back {
+        padding: 50px 0;
+    }
+    .main-content .call-back h2 {
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+    .main-content .top-comment p {
+        padding: 0;
+    }
+    .main-content .top-comment p.third {
+        padding: 0;
+    }
+    .main-content .about-us {
+        padding: 50px 0;
+    }
+    .main-content .about-us h2 {
+        font-size: 1.8em;
+    }
+    .main-content .child-pages {
+        padding: 60px 0;
+    }
+    .main-content .child-pages h2 {
+        font-size: 1.8em;
+    }
+    .main-content .item h3 {
+        font-size: 1.5rem;
+    }
+    .main-content .child-pages .item p {
+        font-size: 0.9em;
+    }
+    .main-content .partners {
+        padding: 50px 0;
+    }
+    .main-content .partners .row {
+        text-align: center;
+    }
+    .main-content .partners .row .col-md {
+        padding: 10px 0;
+    }
+    .main-content .contact-form {
+        padding: 60px 0;
+    }
+    .main-content .contact-form h2 {
+        font-size: 1.8em;
+    }
+    .main-content .contact-form p {
+        font-size: 1em;
+    }
+    .main-content .contact-form .input-form {
+        padding: 50px;
+    }
+    .main-content .buy-area {
+        padding: 60px 0;
+    }
+    .main-content .buy-area h2 {
+        font-size: 1.8em;
+    }
+    .main-content .buy-area p {
+        font-size: 1em;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .contact p {
+        font-size: 0.9em;
+    }
+    .contact .group-a a, .contact .communications a {
+        font-size: 0.9em;
+    }
+    .contact .btn-purple {
+        display: block;
+        padding: 15px 0;
+        font-size: 0.8em;
+    }
 }
