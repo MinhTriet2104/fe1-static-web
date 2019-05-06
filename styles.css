@@ -1,0 +1,708 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header.top-header {
+    background: url('../images/mt-0617-home-bg-1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    background-attachment: fixed;
+    color: white;
+}
+
+header.top-header .navbar a {
+    color: white;
+}
+
+.navbar .nav-item {
+    padding: 0;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 8px 15px;
+    margin-left: 5px;
+}
+
+header.top-header .navbar .active .nav-link {
+    border: 2px solid #aa71d0;
+    
+}
+
+.navbar .down-arrow a {
+    word-spacing: 0.5em;
+}
+
+header.top-header .banner {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.top-header .dropdown {
+    position: relative;
+}
+
+.top-header ul.dropdown-list {
+    background: #272532;
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 15px 0;
+    top: 110%;
+    left: -5%;
+    font-size: 0.9em;
+    width: 125px;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.top-header ul.dropdown-list a {
+    word-spacing: normal;
+    display: block;
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.top-header ul.dropdown-list a:hover {
+    color: #aa71d0;
+}
+
+header.top-header .banner h1 .normal {
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+}
+
+header.top-header .banner h1 {
+    font-size: 3.4em;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+header.top-header .banner h2 {
+    font-size: 3.3em;
+    font-family: 'Playfair Display', serif;
+}
+
+header.top-header .banner a {
+    color: #aa71d0;
+    text-decoration: underline;
+    margin-top: 50px;
+    display: block;
+    font-size: 1em;
+}
+
+.main-content .navbar {
+    padding: 25px 0;
+    border-bottom: 2px solid #f3f5f6;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+}
+
+.main-content .navbar a {
+    color: black;
+}
+
+.main-content .navbar .active {
+    border: 2px solid black;
+}
+
+.dropdown:hover .dropdown-list {
+    display: block;
+}
+
+.main-content  ul.dropdown-list {
+    background: #272532;
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 15px 0;
+    top: 110%;
+    left: -5%;
+    font-size: 0.9em;
+    width: 125px;
+}
+
+.main-content ul.dropdown-list a {
+    word-spacing: normal;
+    display: block;
+    padding: 10px 12px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    left: 0;
+    color: white;
+}
+
+.main-content  ul.dropdown-list a:hover {
+    color: #aa71d0;
+}
+
+.main-content .why-should-use {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.main-content .why-should-use .left-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-top: 30px;
+}
+
+.main-content .why-should-use h2 .moto-cms {
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-content .why-should-use .left-content h3 {
+    color: #2a2a2a;
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+.main-content .why-should-use .left-content p {
+    color: #8b8b8b;
+    margin-top: 30px;
+    font-size: 1.05em;
+}
+
+.btn-purple {
+    background: #aa71d0;
+    color: white;
+    padding: 15px 50px;
+    font-size: 0.9em;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.btn-purple:hover {
+    background: white;
+    color: #aa71d0;
+    border: 2px solid #aa71d0;
+    padding: 14px 49px;
+}
+
+.main-content .introduce {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #f3f5f6;
+}
+
+.main-content .introduce h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+}
+
+.bold-italic {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-content .introduce p {
+    color: #8b8b8b;
+    display: block;
+    font-weight: 400;
+    font-size: 1.55em;
+    padding: 15px;
+}
+
+.main-content .item img {
+    padding: 10px 0;
+}
+
+.main-content .item h3 {
+    font-family: 'Playfair Display', serif;
+    padding: 10px 0;
+}
+
+.main-content .item p {
+    font-size: 0.9em;
+    padding: 10px 0;
+}
+
+.main-content .call-back {
+    padding: 100px 0;
+}
+
+.main-content .call-back h2 {
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+    line-height: 2em;
+}
+
+.main-content .top-comment {
+    background: url('../images/mt-0617-home-bg-3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    padding: 50px 0;
+}
+
+.main-content .carousel {
+    padding: 100px 0;
+}
+
+.main-content .carousel-inner {
+    height: 100px;
+}
+
+.carousel-indicators li {
+    margin: 0 10px;
+}
+
+.main-content .top-comment p {
+    font-size: 1.1em;
+    padding: 0 200px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-content .top-comment p.third {
+    padding: 0 100px;
+}
+
+.main-content .top-comment .author {
+    font-size: 0.7em;
+    color: #8b8b8b;
+}
+
+.carousel-indicators li {
+    color: #8b8b8b;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 0.8em;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+    background: transparent;
+    border: 2px solid #8b8b8b;
+}
+
+.main-content .about-us {
+    padding: 100px 0;
+}
+
+.main-content .about-us h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    padding: 15px 0;
+}
+
+.main-content .about-us p {
+    color: #8b8b8b;
+    font-size: 1.1em;
+}
+
+.icon {
+    display: inline-block;
+    letter-spacing: 0.7em;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon .icon-facebook {
+    color: #3a5a9f;
+}
+
+.icon .icon-twitter {
+    color: #45b0e3;
+}
+
+.icon .icon-linkedin {
+    color: #1783cb;
+}
+
+.main-content .employee h3 {
+    padding: 10px 0;
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-content .employee .job {
+    font-size: 0.87em;
+    color: #8b8b8b;
+}
+
+.main-content .employee .introduce-employee {
+    font-size: 1em;
+    padding: 0;
+}
+
+.main-content .child-pages {
+    background: url('../images/mt-0617-home-bg-4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-content .child-pages h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .child-pages P {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.main-content .child-pages .item p {
+    font-size: 1em;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.main-content .partners {
+    padding: 130px 0;
+}
+
+.main-content .contact-form {
+    padding: 130px 0;
+    background: url('../images/mt-0617-home-bg-5.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 130px 0;
+    background-attachment: fixed;
+    color: white;
+}
+
+.main-content .contact-form h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .contact-form p {
+    font-size: 1.25em;
+    padding: 15px 0;
+}
+
+.main-content .contact-form .input-form {
+    padding: 120px;
+    background: #272532;
+}
+
+.main-content .contact-form .input-form input {
+    background: transparent;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    color: white;
+}
+
+.main-content .contact-form .input-form input:focus {
+    color: white;
+    outline: none;
+}
+
+.main-content .contact-form .input-form input::placeholder {
+    color: white;
+}
+
+.main-content .contact-form .input-form .input-name, .input-email, .input-message {
+    padding: 16px 22px;
+    border-bottom: 1px solid black;
+    margin-top: 15px;
+}
+
+.main-content .contact-form .input-form textarea {
+    overflow: auto;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+.main-content .contact-form .input-form textarea::placeholder {
+    color: white;
+}
+
+.main-content .contact-form .input-form textarea:focus {
+    outline: none;
+    color: white;
+}
+
+.main-content .buy-area h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+}
+
+.main-content .buy-area p {
+    font-size: 1.21em;
+    color: #8b8b8b;
+}
+
+.main-content .buy-area {
+    padding: 130px 0;
+}
+
+footer {
+    background: #1b1a23;
+    padding: 15px 0;
+    color: #8b8b8b;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #aa71d0;
+}
+
+.contact {
+    padding: 120px 0;
+    background: #272532;
+    color: white;
+}
+
+.contact h2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    word-spacing: 0.6em;
+}
+
+.contact p {
+    color: #635f76;
+    padding: 15px 0;
+}
+
+.contact .icon {
+    font-size: 0.9em;
+    list-style: none;
+    float: left;
+}
+
+.contact .icon li {
+    display: inline;
+    text-align: center;
+}
+
+.contact .icon .icon-facebook, .contact .icon .icon-twitter, .contact .icon .icon-linkedin {
+    letter-spacing: 0;
+    padding: 1px 5px;
+}
+
+.contact .icon .icon-facebook:hover, .contact .icon .icon-twitter:hover, .contact .icon .icon-linkedin:hover {
+    background-color: #ffffff;
+    color: #d3d8db;
+}
+
+.contact ul {
+    list-style: none;
+}
+
+.contact .group-a a, .contact .communications a  {
+    color: white;
+    padding: 4px 0;
+    display: inline-block;
+}
+
+.contact .group-a a:hover, .contact .communications a:hover {
+    color: #aa71d0;
+    text-decoration: none;
+}
+
+.contact h3 {
+    font-size: 1em;
+}
+
+.contact .communications p {
+    padding: 0;
+}
+
+.contact .input-email-signup {
+    padding: 10px 15px;
+    background: #1b1a23;
+}
+
+.contact .input-email-signup input {
+    background: transparent;
+    border: none;
+}
+
+.contact .input-email-signup input:focus {
+    outline: none;
+    color: white;
+}
+
+.contact .input-email-signup input::placeholder {
+    color: white;
+}
+
+footer a:hover {
+    color: #aa71d0;
+}
+
+a.up-to-top {
+    padding: 5px 10px;
+    background: #c198dd;
+    position: fixed;
+    bottom: 35px;
+    right: 15px;
+    color: white;
+    border-radius: 3px;
+    z-index: 1000;
+}
+
+a.up-to-top:hover {
+    background: #aa71d0;
+}
+
+a.phone-fixed {
+    position: fixed;
+    bottom: 35px;
+    left: 25px;
+    color: #c198dd;
+    background: white;
+    border-radius: 50%;
+    font-size: 2.5em;
+    padding: 5px 15px;
+    box-shadow: 1px 1px 13px 6px rgba(0,0,0,0.15);
+    z-index: 1000;
+    transform: rotateY(180deg);
+}
+
+a.phone-fixed:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+    header.top-header {
+        padding-bottom: 20px;
+    }
+    header.top-header .banner {
+        padding: 20px 0;
+    }
+    header.top-header .navbar-toggler-icon {
+        color: #aa71d0;
+    }
+    header.top-header .navbar-toggler {
+        background: white;
+        padding: 3px 5px;
+        line-height: 1.4;
+        display: block;
+    }
+    header.top-header .banner h1 {
+        font-size: 1.8em;
+        padding: 0;
+        padding-right: 15px;
+    }
+    header.top-header .banner h2 {
+        font-size: 1.8em;
+        padding-right: 30px;
+    }
+    header.top-header .banner h5 {
+        padding-right: 25px;
+    }
+    header.top-header .banner a {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .main-content .navbar-toggler-icon {
+        background: #f3f5f6;
+        padding: 3px 5px;
+        line-height: 1.4;
+        display: block;
+    }
+    .main-content navbar-toggler-icon {
+        color: black;
+    }
+    .main-content .why-should-use .left-content h2 {
+        font-size: 1.8em;
+    }
+    .btn-purple {
+        padding: 10px 10px;
+        font-size: 0.7em;
+        margin: 15px 0;    
+    }
+    .main-content .call-back {
+        padding: 50px 0;
+    }
+    .main-content .call-back h2 {
+        font-size: 1.8em;
+        line-height: 1.2;
+    }
+    .main-content .top-comment p {
+        padding: 0;
+    }
+    .main-content .top-comment p.third {
+        padding: 0;
+    }
+    .main-content .about-us {
+        padding: 50px 0;
+    }
+    .main-content .about-us h2 {
+        font-size: 1.8em;
+    }
+    .main-content .child-pages {
+        padding: 60px 0;
+    }
+    .main-content .child-pages h2 {
+        font-size: 1.8em;
+    }
+    .main-content .item h3 {
+        font-size: 1.5rem;
+    }
+    .main-content .child-pages .item p {
+        font-size: 0.9em;
+    }
+    .main-content .partners {
+        padding: 50px 0;
+    }
+    .main-content .partners .row {
+        text-align: center;
+    }
+    .main-content .partners .row .col-md {
+        padding: 10px 0;
+    }
+    .main-content .contact-form {
+        padding: 60px 0;
+    }
+    .main-content .contact-form h2 {
+        font-size: 1.8em;
+    }
+    .main-content .contact-form p {
+        font-size: 1em;
+    }
+    .main-content .contact-form .input-form {
+        padding: 50px;
+    }
+    .main-content .buy-area {
+        padding: 60px 0;
+    }
+    .main-content .buy-area h2 {
+        font-size: 1.8em;
+    }
+    .main-content .buy-area p {
+        font-size: 1em;
+    }
+    .contact {
+        padding: 50px 0;
+    }
+    .contact p {
+        font-size: 0.9em;
+    }
+    .contact .group-a a, .contact .communications a {
+        font-size: 0.9em;
+    }
+    .contact .btn-purple {
+        display: block;
+        padding: 15px 0;
+        font-size: 0.8em;
+    }
+}
