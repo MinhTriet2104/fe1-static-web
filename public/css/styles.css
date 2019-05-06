@@ -403,6 +403,7 @@ header.top-header .banner a {
     border: none;
     display: inline-block;
     width: 100%;
+    color: white;
 }
 
 .main-content .contact-form .input-form input:focus {
@@ -411,10 +412,6 @@ header.top-header .banner a {
 }
 
 .main-content .contact-form .input-form input::placeholder {
-    color: white;
-}
-
-.main-content .contact-form .input-form input::content {
     color: white;
 }
 
